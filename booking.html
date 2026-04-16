@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip | Explore Tasikmalaya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: linear-gradient(rgba(13, 43, 29, 0.8), rgba(13, 43, 29, 0.8)), url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1920'); background-size: cover; background-attachment: fixed;">
+
+    <nav class="navbar">
+        <div class="logo">Tasikmalaya</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+             <li><a href="activity.html">Activities</a></li>
+            <li><a href="culture.html">Culture</a></li>
+            <li><a href="culinary.html">Culinary</a></li>
+            <li><a href="plan.html">Plan Your Trip</a></li>
+            <li><a href="itinerary.html">Itinerary</a></li>
+            <li><a href="accomodation.html">Accomodation</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="sustainability.html">Sustainability</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="responsible.html">Responsible</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+    </nav>
+
+    <section class="section" style="padding-top: 120px;">
+        <div class="container">
+            <div class="booking-card">
+                <h2 class="gold" style="text-align: center; margin-bottom: 10px;">Ready to Explore?</h2>
+                <p style="color: #fff; text-align: center; opacity: 0.8; margin-bottom: 30px; font-size: 14px;">Silakan lengkapi formulir di bawah untuk reservasi perjalanan Anda.</p>
+                
+                <form class="booking-form">
+                    <div class="form-group">
+                        <label>Nama Lengkap</label>
+                        <input type="text" placeholder="Contoh: Budi Santoso" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Destinasi Utama</label>
+                            <select>
+                                <option>Gunung Galunggung</option>
+                                <option>Kampung Naga</option>
+                                <option>Karang Tawulan</option>
+                                <option>Curug Badak</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>Jumlah Peserta</label>
+                            <input type="number" min="1" value="1">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Tanggal Rencana</label>
+                            <input type="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Kontak (WhatsApp)</label>
+                            <input type="tel" placeholder="08123xxx" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Catatan Khusus</label>
+                        <textarea rows="3" placeholder="Contoh: Butuh pemandu bahasa Inggris..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-submit">KONFIRMASI PESANAN</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-bottom">
+            <p>&copy; 2026 Visit Tasikmalaya. Enjoy Your Trip!</p>
+        </div>
+    </footer>
+
+</body>
+</html>
